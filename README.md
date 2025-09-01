@@ -70,7 +70,7 @@ CREATE TABLE produtos (
 
 Clone este repositório:
 
-git clone https://github.com/seuusuario/sistema-empresa.git
+git clone https://github.com/Vini-Gregorio/programacaoWeb_4ads.git
 
 Coloque a pasta dentro do seu servidor local (htdocs no XAMPP ou www no WAMP).
 
