@@ -1,5 +1,5 @@
 
-#🏢 Sistema de Cadastro e Consulta de Produtos  
+# 🏢 Sistema de Cadastro e Consulta de Produtos  
 *(Primeira atividade avaliativa – 31/08/2025)*
 
 Este é um sistema simples em **PHP (PDO)** para cadastro e consulta de produtos.  
