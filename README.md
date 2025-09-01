@@ -87,6 +87,7 @@ https://localhost/empresa/
 ---
 ## 📊 Fluxo MVC
 
+```mermaid
 flowchart TD
     A[Usuário] -->|Acessa| B[index.php]
     B --> C[Controller]
@@ -94,7 +95,7 @@ flowchart TD
     D --> E[(Banco de Dados)]
     C --> F[View]
     F --> A
-
+```
 ---
 
 Menu principal
