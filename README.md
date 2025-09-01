@@ -82,7 +82,7 @@ configuration/conexaoexemplo.php
 Acesse no navegador:
 
 http://localhost/empresa/
-
+---
 ## 📊 Fluxo MVC
 flowchart TD
     A[Usuário] -->|Acessa| B[index.php]
@@ -92,14 +92,14 @@ flowchart TD
     C --> F[View]
     F --> A
 
-
+---
 Menu principal
 
 Tela de cadastro
 
 Tela de consulta
-
-🚀 Melhorias Futuras
+---
+##🚀 Melhorias Futuras
 
 🔑 Autenticação de usuários (login/logout)
 
@@ -109,7 +109,7 @@ Tela de consulta
 
 🐳 Docker para rodar em qualquer ambiente
 
-📜 Licença
+---
 
 Este projeto está sob a licença MIT.
 Sinta-se livre para usar, modificar e compartilhar. 😃
