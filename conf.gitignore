@@ -1,0 +1,40 @@
+# ---------------------------
+# Arquivos do sistema
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Arquivos de configuração (não versionar dados sensíveis)
+# ---------------------------
+conexao.php
+.env
+
+# ---------------------------
+# Cache e logs
+# ---------------------------
+/cache/
+/logs/
+/tmp/
+/sessions/
+
+# ---------------------------
+# Dependências do Composer
+# ---------------------------
+/vendor/
+
+# ---------------------------
+# Outros arquivos que não precisam no repositório
+# ---------------------------
+*.log
+*.bak
+*.swp
+*.swo
+
+# ---------------------------
+# Arquivos do IDE/Editor
+# ---------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
