@@ -23,8 +23,7 @@ Projeto feito em **arquitetura MVC**, com um visual **futurista e moderno** usan
 - CSS3
 
 ---
-
-## 📂 Estrutura de Pastas
+ 📂 Estrutura de Pastas
 
 
 /projeto_empresa
@@ -59,7 +58,7 @@ CREATE TABLE produtos (
     preco DECIMAL(10,2)
 );
 
-▶️ Como Rodar o Projeto
+## ▶️ Como Rodar o Projeto
 
 Clone este repositório:
 
@@ -76,7 +75,7 @@ Acesse no navegador:
 
 http://localhost/sistema-empresa
 
-📊 Fluxo MVC
+## 📊 Fluxo MVC
 flowchart TD
     A[Usuário] -->|Acessa| B[index.php]
     B --> C[Controller]
