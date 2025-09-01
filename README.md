@@ -82,9 +82,11 @@ configuration/conexaoexemplo.php
 
 Acesse no navegador:
 
-http://localhost/empresa/
+https://localhost/empresa/
+
 ---
 ## 📊 Fluxo MVC
+
 flowchart TD
     A[Usuário] -->|Acessa| B[index.php]
     B --> C[Controller]
@@ -94,11 +96,13 @@ flowchart TD
     F --> A
 
 ---
+
 Menu principal
 
 Tela de cadastro
 
 Tela de consulta
+
 ---
 ##🚀 Melhorias Futuras
 
