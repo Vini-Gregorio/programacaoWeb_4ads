@@ -73,16 +73,18 @@ Clone este repositório:
 
 git clone https://github.com/Vini-Gregorio/programacaoWeb_4ads.git
 
+Renomeie a pasta para "empresa"
+
 Coloque a pasta dentro do seu servidor local (htdocs no XAMPP ou www no WAMP).
 
-Renomeie para apenas "conexao" e configure o banco de dados no arquivo:
+Renomeie o arquivo "conexaoexemplo.php" para apenas "conexao" e configure o banco de dados no arquivo:
 
 configuration/conexaoexemplo.php
 
 
 Acesse no navegador:
 
-https://localhost/empresa/
+http://localhost/empresa/
 
 ---
 ## 📊 Fluxo MVC
