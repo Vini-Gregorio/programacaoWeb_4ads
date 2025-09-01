@@ -105,7 +105,7 @@ Tela de cadastro
 Tela de consulta
 
 ---
-##🚀 Melhorias Futuras
+## 🚀 Melhorias Futuras
 
 🔑 Autenticação de usuários (login/logout)
 
