@@ -26,19 +26,27 @@ Projeto feito em **arquitetura MVC**, com um visual **futurista e moderno** usan
  📂 Estrutura de Pastas
 
 
-/projeto_empresa
-│── index.php # Menu principal
-│ |─── /configuration
-│ | └── config.php # Conexão com banco (PDO)
-│ ├── /model
-│ │ └── Produto.php # Model (Produto)
-│ ├── /controller
-│ │ └── ProdutoController.php
-│ └── /view
-│ ├── cadastro.php # Formulário de cadastro
-│ └── consulta.php # Lista de produtos
-│── /public
-└── style.css # Estilo futurista
+```bash
+/empresa
+│── index.php                 # Menu principal
+│
+├── configuration/
+│   └── config.php            # Conexão com banco (PDO)
+│
+├── model/
+│   └── Produto.php           # Model (Produto)
+│
+├── controller/
+│   └── ProdutoController.php # Controller principal
+│
+├── view/
+│   ├── cadastro.php          # Formulário de cadastro
+│   └── consulta.php          # Lista de produtos
+│
+└── public/
+    └── style.css             # Estilo futurista
+
+```
 
 
 ---
@@ -57,7 +65,7 @@ CREATE TABLE produtos (
     data_validade VARCHAR(20),
     preco DECIMAL(10,2)
 );
-
+```
 ## ▶️ Como Rodar o Projeto
 
 Clone este repositório:
@@ -73,7 +81,7 @@ configuration/conexaoexemplo.php
 
 Acesse no navegador:
 
-http://localhost/sistema-empresa
+http://localhost/empresa/
 
 ## 📊 Fluxo MVC
 flowchart TD
